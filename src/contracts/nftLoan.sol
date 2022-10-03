@@ -5,11 +5,6 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-/*
-Todo
-    1) Look if there could be any other improvements
-*/
-
 contract NftLoan is ReentrancyGuard{
 
     /// @param amountToBeRepayed is the amount after interest

@@ -6,6 +6,7 @@
 <!-- [![Dacade Submission](https://i.postimg.cc/L6pvb3Gb/dacade-submission.jpg)](https://www.youtube.com/watch?v=jj5OdLeW5N0 "Dacade Submission") -->
 
 - For testing users can mint some dummy NFT using [this site](https://celotestminter.netlify.app/)
+### Dapp Flow
 - Users can request for loans by putting up their NFT as collateral 
 - The NFT is transfered to the contract on loan listing
 - Other users can look at the NFT details and lend money to the borrowers
