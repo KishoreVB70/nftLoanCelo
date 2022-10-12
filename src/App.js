@@ -29,7 +29,7 @@ const App = function AppWrapper() {
     let loanId = await getloanid(_loanContract);
     let loansUh = await getloans(_loanContract, loanId);
     setLoans(loansUh);
-    console.log(loansUh);
+    
   }
 
   useEffect(() => {
