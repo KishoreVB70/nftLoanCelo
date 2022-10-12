@@ -29,7 +29,7 @@ const Details = (props) => {
 
     const lendMoney = async (key, loanAmount) => {
         try {
-            console.log(key);
+            
             setLoading(true)
             await lendmoney(loanContract, performActions, key, loanAmount);
             await props.getLoans();
@@ -53,7 +53,7 @@ const Details = (props) => {
 
     const closeBorrowRequest = async (key) => {
         try {
-            console.log(key)
+            
             setLoading(true)
             await closeborrowrequest(loanContract, performActions, key);
             await props.getLoans();
